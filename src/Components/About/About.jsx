@@ -1,14 +1,11 @@
 import "./About.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/about_profile.svg";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function About() {
   return (
     <section className="container about_section">
-      <div className="title">
-        <h1>About me</h1>
-        <img src={theme_pattern} alt="Pattern icon" />
-      </div>
+      <SectionTitle title={"About me"} />
       <div className="about">
         <div className="left">
           <img src={profile_img} alt="Profile" />
