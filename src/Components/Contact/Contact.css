@@ -1,0 +1,103 @@
+.contact .section_title {
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .details {
+    display: flex;
+    gap: 150px;
+}
+
+.contact .details .left {
+    flex-basis: 45%;
+}
+
+.contact .details .left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact .left h1 {
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact .left p {
+    max-width: 550px;
+    color: #D8D8D8;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.contact_details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
+}
+
+.contact_details .detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact .details .right {
+    flex-basis: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.contact form label {
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact form :where(input, textarea) {
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: "Outfit";
+    margin-bottom: 20px;
+}
+
+.contact form input {
+    height: 78px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.contact button[type="submit"] {
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 100%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
