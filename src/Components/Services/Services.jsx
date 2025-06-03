@@ -5,7 +5,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Services() {
   return (
-    <section className="container services">
+    <section id="services" className="container services">
       <SectionTitle title={"My Services"} />
       <div className="cards">
         {Services_Data.map((service, index) => {

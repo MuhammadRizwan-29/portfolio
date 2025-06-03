@@ -4,7 +4,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function About() {
   return (
-    <section className="container about_section">
+    <section id="about" className="container about_section">
       <SectionTitle title={"About me"} />
       <div className="about">
         <div className="left">

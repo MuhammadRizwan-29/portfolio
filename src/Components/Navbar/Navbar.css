@@ -26,3 +26,20 @@ header .connect {
 header .connect:hover {
     transform: scale(1.05);
 }
+
+header ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+header ul li img {
+    display: flex;
+    margin: auto;
+}
+
+header .anchor_link {
+    text-decoration: none;
+    color: #fff;
+}

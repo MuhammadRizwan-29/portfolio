@@ -3,7 +3,7 @@ import profile_img from "../../assets/profile_img.svg";
 
 export default function Hero() {
   return (
-    <section className="container hero_section">
+    <section className="container hero_section" id="#home">
       <img src={profile_img} alt="Profile Image" />
       <h1>
         <span>I'm Alex Bentto,</span> Frontend Developer based in USA

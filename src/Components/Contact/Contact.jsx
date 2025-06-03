@@ -6,7 +6,7 @@ import call from "../../assets/call_icon.svg";
 
 export default function Contact() {
   return (
-    <section className="container contact">
+    <section id="contact" className="container contact">
       <SectionTitle title={"Get in touch"} />
       <div className="details">
         <div className="left">
