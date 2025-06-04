@@ -44,3 +44,15 @@
     gap: 30px;
     transition: 0.6s;
 }
+
+@media (max-width: 600px) {
+    .works {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .works img {
+        width: 100%;
+        height: auto;
+    }
+}

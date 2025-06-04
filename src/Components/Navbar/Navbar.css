@@ -43,3 +43,61 @@ header .anchor_link {
     text-decoration: none;
     color: #fff;
 }
+
+header img[alt="menu icon"] {
+    display: none;
+}
+
+img.close-icon {
+    display: none;
+}
+
+@media (max-width: 786px) {
+    header {
+        padding: 20px 10px;
+        align-items: center;
+        position: fixed;
+        background: #161513;
+        width: 100%;
+        z-index: 1;
+    }
+
+    header .connect {
+        display: none;
+    }
+
+    header img[alt="menu icon"] {
+        display: block;
+        position: fixed;
+        right: 15px;
+    }
+
+    header img.close-icon {
+        display: block;
+        position: relative;
+        top: 30px;
+        width: 30px;
+        left: 290px;
+    }
+
+    header ul {
+        position: fixed;
+        top: 0;
+        background: #1F0016;
+        width: 350px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+
+    header ul li {
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}

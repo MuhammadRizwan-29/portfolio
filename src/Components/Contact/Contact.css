@@ -101,3 +101,44 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+
+@media (max-width: 600px) {
+    .contact {
+        display: block;
+    }
+
+    .contact .details {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .contact .details :where(.left, .right) {
+        flex-basis: 100%;
+    }
+
+    .contact .left h1 {
+        font-size: 50px;
+    }
+
+    .contact form :where(input, textarea) {
+        display: block;
+        border: none;
+        width: 100%;
+    }
+
+    .contact button[type="submit"] {
+        font-size: 17px;
+        padding: 10px 30px;
+    }
+
+    .contact form input {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .contact form :where(input, textarea) {
+        margin-top: 10px;
+    }
+}

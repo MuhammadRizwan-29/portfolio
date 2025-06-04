@@ -14,3 +14,13 @@
     bottom: 0;
     z-index: -1;
 }
+
+@media (max-width: 600px) {
+    .section_title h1 {
+        font-size: 50px;
+    }
+
+    .section_title img {
+        max-width: 180px;
+    }
+}

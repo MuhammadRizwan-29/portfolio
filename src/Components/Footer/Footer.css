@@ -67,3 +67,40 @@ footer .ft__bottom .right {
     gap: 50px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+    footer .ft__top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .ft__top .email-input {
+        align-items: flex-start;
+        gap: 5px;
+        padding: 15px 10px;
+        padding-right: 10px;
+    }
+
+    footer .ft__top .ft_subscriber {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+
+    footer .ft__top .right {
+        gap: 10px;
+    }
+
+    footer .ft__bottom {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    footer .ft__bottom .right {
+        gap: 17px;
+    }
+
+    footer .ft__top .right {
+        flex-direction: column;
+    }
+}
